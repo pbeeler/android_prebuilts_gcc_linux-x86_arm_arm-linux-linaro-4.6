@@ -1,9 +1,9 @@
 #include "configargs.h"
 
 static char basever[] = "4.6.4";
-static char datestamp[] = "20120630";
+static char datestamp[] = "20120906";
 static char devphase[] = "prerelease";
-static char revision[] = "";
+static char revision[] = "[gcc-linaro/4.6 revision 106910]";
 
 /* FIXME plugins: We should make the version information more precise.
    One way to do is to add a checksum. */

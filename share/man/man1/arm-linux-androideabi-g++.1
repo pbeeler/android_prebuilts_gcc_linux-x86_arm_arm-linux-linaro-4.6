@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "GCC 1"
-.TH GCC 1 "2012-06-30" "gcc-4.6.4" "GNU"
+.TH GCC 1 "2012-09-06" "gcc-4.6.4" "GNU"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -861,8 +861,8 @@ See \s-1RS/6000\s0 and PowerPC Options.
 \&\-m5\-compact  \-m5\-compact\-nofpu 
 \&\-mb  \-ml  \-mdalign  \-mrelax 
 \&\-mbigtable \-mfmovd \-mhitachi \-mrenesas \-mno\-renesas \-mnomacsave 
-\&\-mieee  \-mbitops  \-misize  \-minline\-ic_invalidate \-mpadstruct  \-mspace 
-\&\-mprefergot  \-musermode \-multcost=\fR\fInumber\fR \fB\-mdiv=\fR\fIstrategy\fR 
+\&\-mieee \-mno\-ieee \-mbitops  \-misize  \-minline\-ic_invalidate \-mpadstruct 
+\&\-mspace \-mprefergot  \-musermode \-multcost=\fR\fInumber\fR \fB\-mdiv=\fR\fIstrategy\fR 
 \&\fB\-mdivsi3_libfunc=\fR\fIname\fR \fB\-mfixed\-range=\fR\fIregister-range\fR 
 \&\fB\-madjust\-unroll \-mindexed\-addressing \-mgettrcost=\fR\fInumber\fR \fB\-mpt\-fixed 
 \&\-maccumulate\-outgoing\-args \-minvalid\-symbols\fR
@@ -4720,8 +4720,12 @@ Dump after live range splitting.
 .IX Item "-fdump-rtl-dfinish"
 .PD
 These dumps are defined but always produce empty files.
+.IP "\fB\-da\fR" 4
+.IX Item "-da"
+.PD 0
 .IP "\fB\-fdump\-rtl\-all\fR" 4
 .IX Item "-fdump-rtl-all"
+.PD
 Produce all the dumps listed above.
 .IP "\fB\-dA\fR" 4
 .IX Item "-dA"
@@ -4733,10 +4737,6 @@ normal output.
 .IP "\fB\-dH\fR" 4
 .IX Item "-dH"
 Produce a core dump whenever an error occurs.
-.IP "\fB\-dm\fR" 4
-.IX Item "-dm"
-Print statistics on memory usage, at the end of the run, to
-standard error.
 .IP "\fB\-dp\fR" 4
 .IX Item "-dp"
 Annotate the assembler output with a comment indicating which
@@ -15858,12 +15858,16 @@ Mark the \f(CW\*(C`MAC\*(C'\fR register as call-clobbered, even if
 \&\fB\-mhitachi\fR is given.
 .IP "\fB\-mieee\fR" 4
 .IX Item "-mieee"
-Increase IEEE-compliance of floating-point code.
-At the moment, this is equivalent to \fB\-fno\-finite\-math\-only\fR.
-When generating 16 bit \s-1SH\s0 opcodes, getting IEEE-conforming results for
-comparisons of NANs / infinities incurs extra overhead in every
-floating point comparison, therefore the default is set to
-\&\fB\-ffinite\-math\-only\fR.
+.PD 0
+.IP "\fB\-mno\-ieee\fR" 4
+.IX Item "-mno-ieee"
+.PD
+Control the \s-1IEEE\s0 compliance of floating-point comparisons, which affects the
+handling of cases where the result of a comparison is unordered.  By default
+\&\fB\-mieee\fR is implicitly enabled.  If \fB\-ffinite\-math\-only\fR is
+enabled \fB\-mno\-ieee\fR is implicitly set, which results in faster
+floating-point greater-equal and less-equal comparisons.  The implcit settings
+can be overridden by specifying either \fB\-mieee\fR or \fB\-mno\-ieee\fR.
 .IP "\fB\-minline\-ic_invalidate\fR" 4
 .IX Item "-minline-ic_invalidate"
 Inline code to invalidate instruction cache entries after setting up
