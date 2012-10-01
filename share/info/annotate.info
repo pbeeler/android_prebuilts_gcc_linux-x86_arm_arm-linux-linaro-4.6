@@ -1,5 +1,5 @@
 This is annotate.info, produced by makeinfo version 4.13 from
-/mnt/jenkins/workspace/linaro-android_toolchain-4.6-2012.07/build/objdir/../build/../gdb/gdb-linaro-7.4-2012.06/gdb/doc/annotate.texinfo.
+../../.././../gdb/gdb-linaro-7.5-2012.09/gdb/doc/annotate.texinfo.
 
 INFO-DIR-SECTION Software development
 START-INFO-DIR-ENTRY
@@ -1172,21 +1172,21 @@ permit their use in free software.
 
 
 Tag Table:
-Node: Top1357
-Node: Annotations Overview2527
-Node: Limitations4326
-Node: Migrating to GDB/MI6911
-Node: Server Prefix7294
-Node: Value Annotations7940
-Node: Frame Annotations11110
-Node: Displays15009
-Node: Prompting16040
-Node: Errors17543
-Node: Breakpoint Info18433
-Node: Invalidation19658
-Node: Annotations for Running20137
-Node: Source Annotations21650
-Node: Multi-threaded Apps22596
-Node: GNU Free Documentation License23205
+Node: Top1286
+Node: Annotations Overview2456
+Node: Limitations4255
+Node: Migrating to GDB/MI6840
+Node: Server Prefix7223
+Node: Value Annotations7869
+Node: Frame Annotations11039
+Node: Displays14938
+Node: Prompting15969
+Node: Errors17472
+Node: Breakpoint Info18362
+Node: Invalidation19587
+Node: Annotations for Running20066
+Node: Source Annotations21579
+Node: Multi-threaded Apps22525
+Node: GNU Free Documentation License23134
 
 End Tag Table
