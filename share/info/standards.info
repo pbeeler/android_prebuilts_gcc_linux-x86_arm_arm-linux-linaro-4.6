@@ -1,5 +1,5 @@
 This is standards.info, produced by makeinfo version 4.13 from
-./standards.texi.
+../.././../gdb/gdb-linaro-7.5-2012.09/etc/standards.texi.
 
 INFO-DIR-SECTION GNU organization
 START-INFO-DIR-ENTRY
@@ -5671,74 +5671,74 @@ Index
 
 
 Tag Table:
-Node: Top815
-Node: Preface2090
-Node: Legal Issues4803
-Node: Reading Non-Free Code5273
-Node: Contributions7003
-Node: Trademarks9241
-Node: Design Advice10876
-Node: Source Language11468
-Node: Compatibility13594
-Node: Using Extensions15222
-Node: Standard C16798
-Node: Conditional Compilation19201
-Node: Program Behavior20599
-Node: Non-GNU Standards21715
-Node: Semantics23996
-Node: Libraries28716
-Node: Errors29961
-Node: User Interfaces32454
-Node: Graphical Interfaces34059
-Node: Command-Line Interfaces35243
-Node: --version37275
-Node: --help43012
-Node: Option Table43885
-Node: OID Allocations58840
-Node: Memory Usage60637
-Node: File Usage61673
-Node: Writing C62423
-Node: Formatting63395
-Node: Comments67684
-Node: Syntactic Conventions71236
-Node: Names74698
-Node: System Portability76910
-Node: CPU Portability79801
-Node: System Functions83702
-Node: Internationalization88899
-Node: Character Set92893
-Node: Quote Characters93706
-Node: Mmap95226
-Node: Documentation95934
-Node: GNU Manuals97040
-Node: Doc Strings and Manuals102778
-Node: Manual Structure Details104331
-Node: License for Manuals105749
-Node: Manual Credits106723
-Node: Printed Manuals107116
-Node: NEWS File107802
-Node: Change Logs108480
-Node: Change Log Concepts109234
-Node: Style of Change Logs111337
-Node: Simple Changes113837
-Node: Conditional Changes115279
-Node: Indicating the Part Changed116701
-Node: Man Pages117228
-Node: Reading other Manuals119434
-Node: Managing Releases120225
-Node: Configuration121006
-Node: Makefile Conventions129671
-Node: Makefile Basics130553
-Node: Utilities in Makefiles133727
-Node: Command Variables135872
-Node: DESTDIR139094
-Node: Directory Variables141243
-Node: Standard Targets155736
-Ref: Standard Targets-Footnote-1169251
-Node: Install Command Categories169351
-Node: Releases173884
-Node: References177889
-Node: GNU Free Documentation License183736
-Node: Index208903
+Node: Top855
+Node: Preface2130
+Node: Legal Issues4843
+Node: Reading Non-Free Code5313
+Node: Contributions7043
+Node: Trademarks9281
+Node: Design Advice10916
+Node: Source Language11508
+Node: Compatibility13634
+Node: Using Extensions15262
+Node: Standard C16838
+Node: Conditional Compilation19241
+Node: Program Behavior20639
+Node: Non-GNU Standards21755
+Node: Semantics24036
+Node: Libraries28756
+Node: Errors30001
+Node: User Interfaces32494
+Node: Graphical Interfaces34099
+Node: Command-Line Interfaces35283
+Node: --version37315
+Node: --help43052
+Node: Option Table43925
+Node: OID Allocations58880
+Node: Memory Usage60677
+Node: File Usage61713
+Node: Writing C62463
+Node: Formatting63435
+Node: Comments67724
+Node: Syntactic Conventions71276
+Node: Names74738
+Node: System Portability76950
+Node: CPU Portability79841
+Node: System Functions83742
+Node: Internationalization88939
+Node: Character Set92933
+Node: Quote Characters93746
+Node: Mmap95266
+Node: Documentation95974
+Node: GNU Manuals97080
+Node: Doc Strings and Manuals102818
+Node: Manual Structure Details104371
+Node: License for Manuals105789
+Node: Manual Credits106763
+Node: Printed Manuals107156
+Node: NEWS File107842
+Node: Change Logs108520
+Node: Change Log Concepts109274
+Node: Style of Change Logs111377
+Node: Simple Changes113877
+Node: Conditional Changes115319
+Node: Indicating the Part Changed116741
+Node: Man Pages117268
+Node: Reading other Manuals119474
+Node: Managing Releases120265
+Node: Configuration121046
+Node: Makefile Conventions129711
+Node: Makefile Basics130593
+Node: Utilities in Makefiles133767
+Node: Command Variables135912
+Node: DESTDIR139134
+Node: Directory Variables141283
+Node: Standard Targets155776
+Ref: Standard Targets-Footnote-1169291
+Node: Install Command Categories169391
+Node: Releases173924
+Node: References177929
+Node: GNU Free Documentation License183776
+Node: Index208943
 
 End Tag Table

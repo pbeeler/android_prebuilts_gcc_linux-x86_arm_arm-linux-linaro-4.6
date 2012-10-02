@@ -1,5 +1,5 @@
 This is doc/cppinternals.info, produced by makeinfo version 4.13 from
-/mnt/jenkins/workspace/linaro-android_toolchain-4.6-bzr/build/objdir/../build/../gcc/gcc-linaro-4.6-bzr/gcc/doc/cppinternals.texi.
+../.././../gcc/gcc-linaro-4.6-2012.09/gcc/doc/cppinternals.texi.
 
 INFO-DIR-SECTION Software development
 START-INFO-DIR-ENTRY
@@ -1020,17 +1020,17 @@ Concept Index
 
 
 Tag Table:
-Node: Top1052
-Node: Conventions2737
-Node: Lexer3679
-Ref: Invalid identifiers11592
-Ref: Lexing a line13541
-Node: Hash Nodes18314
-Node: Macro Expansion21193
-Node: Token Spacing30140
-Node: Line Numbering36000
-Node: Guard Macros40085
-Node: Files44876
-Node: Concept Index48342
+Node: Top986
+Node: Conventions2671
+Node: Lexer3613
+Ref: Invalid identifiers11526
+Ref: Lexing a line13475
+Node: Hash Nodes18248
+Node: Macro Expansion21127
+Node: Token Spacing30074
+Node: Line Numbering35934
+Node: Guard Macros40019
+Node: Files44810
+Node: Concept Index48276
 
 End Tag Table
